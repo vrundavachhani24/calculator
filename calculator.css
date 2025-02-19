@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/red-and-blue-calculators-yxm0myfzuym67431.jpg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.calculator{
+    padding: 100px;
+    border-radius: 10px;    
+}
+input {
+    box-shadow: 2px 2px 5px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    width: 78%;
+    margin: 10px;
+    font-size: 20px;
+}
+.buttons{
+    padding: 10px;
+}
+button {
+    padding: 15px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+}
+.clear{
+    background-color: red;
+    color: white;
+}
+.operator{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px;
+}
+
+.clear:hover{
+    box-shadow: 2px 2px 5px rgb(51, 1, 1);
+}
+
+.operator:hover{
+    box-shadow: 2px 2px 5px rgb(58, 57, 57);
+}
