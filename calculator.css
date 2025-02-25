@@ -16,8 +16,9 @@ input {
     text-align: right;
     padding: 10px;
     border: none;
-    width: 78%;
+    width: 80%;
     margin: 10px;
+    border-radius: 10px;
     font-size: 20px;
 }
 .buttons{
